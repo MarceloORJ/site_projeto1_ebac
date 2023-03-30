@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+
+}
+
+body{
+    font-family: 'Supernatural Knight', sans-serif;
+}
+body h2{    
+    font-size:xx-large;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+header{    
+    background-color: #0f0f0f;
+    color:white;
+    padding: 15px 0px;
+    box-shadow: 0px 0px 5px 5px #00000096;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header .container,
+#about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .container li{
+    margin-left: 30px;
+    display: inline;
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+header img{
+    width: 30%;    
+}
+body{
+    background-color: #1a1a1a;
+    color:white;   
+}
+
+header .container{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loja img{
+    height: 56px;
+    margin-right: 32px;    
+}
+
+.container h2{
+    margin-bottom: 16px;
+}
+.container p{
+    margin-bottom: 8px;
+}
+
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact .container{
+    display: block;
+    
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+#about .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section .capa-jogo{
+
+    box-shadow: 0px 0px 5px 5px #0000007c;
+    margin-right: 32px;
+    margin-bottom: 50px;  
+}
+
+
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    background-color:#080808;    
+    margin-bottom: 8px;
+    padding: 8px;
+    border: none;
+    border-radius:1ch; 
+    box-shadow: 1px 1px 4px 4px #08080838;
+}
+
+form input, form textarea{
+    color: white;
+}
+
+form{
+    margin-bottom: 8px;
+}
+
+form button{
+    background-color: white;
+    block-size: 40px;
+    cursor:pointer;
+    font-weight: bold;
+
+}
+
+form button:hover{
+    background-color: #cfcfcf;
+}
+
+form textarea{
+    height: 150px;
+}
+
+form button, form input, form textarea{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+form textarea{
+    resize: none;
+}
+
+
+footer{
+    background-color: black;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
